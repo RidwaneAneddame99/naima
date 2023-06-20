@@ -1,0 +1,37 @@
+button{
+    background-color: aqua;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
+body{
+    padding: 40px;
+    margin-left: 60px;
+    margin-left: 60px;
+}
+
+  .div1 button {
+    display: block;
+    margin: 10px;
+  }
+  .div1 a {
+    text-decoration: none; /* Remove underline */
+  }
+  .divp{
+    display: flex !important;
+    justify-content: space-between;
+  }
+  .class-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.class-table th, .class-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.class-table th {
+    background-color: #f2f2f2;
+}
